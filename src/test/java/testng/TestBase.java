@@ -22,10 +22,15 @@ public class TestBase {
 
         System.out.println("init options");
         ChromeOptions options = new ChromeOptions();
-        options.addArguments("start-maximized");
+        options.addArguments("--window-size=1400,1400");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--dump-dom");
+        options.addArguments("--disable-dev-shm-usage");
+
+
 
 //        capabilities.setBrowserName(PropertyLoader.loadProperty("browser.name"));
 //        capabilities.setVersion(PropertyLoader.loadProperty("browser.version"));
