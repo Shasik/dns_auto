@@ -1,6 +1,7 @@
 package testng;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
@@ -30,14 +31,10 @@ public class TestBase {
         options.addArguments("--dump-dom");
         options.addArguments("--disable-dev-shm-usage");
 
-
-
-//        capabilities.setBrowserName(PropertyLoader.loadProperty("browser.name"));
-//        capabilities.setVersion(PropertyLoader.loadProperty("browser.version"));
-//        String platform = PropertyLoader.loadProperty("browser.platform");
-
         System.out.println("init driver");
-        driver = SingleWebDriverPool.DEFAULT.getDriver(options);
+        driver = ChromeDriver.builder().build();
+        driver = new ChromeDriver(options);
+//        driver = SingleWebDriverPool.DEFAULT.getDriver(options);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
