@@ -21,8 +21,9 @@ public class TestBase {
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
-        options.addArguments("-–no-sandbox");
-        options.addArguments("-–disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--headless");
 
 //        capabilities.setBrowserName(PropertyLoader.loadProperty("browser.name"));
 //        capabilities.setVersion(PropertyLoader.loadProperty("browser.version"));
