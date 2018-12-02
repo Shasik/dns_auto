@@ -15,7 +15,9 @@ public class HomePageTest extends TestBase {
 
     @BeforeClass
     public void testInit() {
+        System.out.println("test init base url");
         driver.get(baseUrl);
+        System.out.println("page factory start");
         homepage = PageFactory.initElements(driver, HomePage.class);
     }
 

@@ -16,9 +16,11 @@ public class TestBase {
     protected String baseUrl;
     @BeforeClass
     public void init() {
+        System.out.println("init baseUrl");
         baseUrl = PropertyLoader.loadProperty("site.url");
         System.setProperty("webdriver.chrome.driver", "chromedriver_nix");
 
+        System.out.println("init options");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
         options.addArguments("--no-sandbox");
@@ -29,9 +31,11 @@ public class TestBase {
 //        capabilities.setVersion(PropertyLoader.loadProperty("browser.version"));
 //        String platform = PropertyLoader.loadProperty("browser.platform");
 
+        System.out.println("init driver");
         driver = SingleWebDriverPool.DEFAULT.getDriver(options);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
+
     @AfterSuite(alwaysRun = true)
     public void tearDown() {
         if (driver != null) {
