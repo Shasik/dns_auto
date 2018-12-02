@@ -32,7 +32,6 @@ public class TestBase {
         options.addArguments("--disable-dev-shm-usage");
 
         System.out.println("init driver");
-        driver = ChromeDriver.builder().build();
         driver = new ChromeDriver(options);
 //        driver = SingleWebDriverPool.DEFAULT.getDriver(options);
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
