@@ -19,7 +19,7 @@ public class TestBase {
     public void init() {
         System.out.println("init baseUrl");
         baseUrl = PropertyLoader.loadProperty("site.url");
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver_nix");
 
         System.out.println("init options");
         ChromeOptions options = new ChromeOptions();
