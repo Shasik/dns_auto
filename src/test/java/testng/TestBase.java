@@ -19,14 +19,14 @@ public class TestBase {
     public void init() {
         System.out.println("init baseUrl");
         baseUrl = PropertyLoader.loadProperty("site.url");
-        System.setProperty("webdriver.chrome.driver", "chromedriver_nix");
+        System.setProperty("webdriver.chrome.driver", "chromedriver");
 
         System.out.println("init options");
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--window-size=1400,1400");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-//        options.addArguments("--headless");
+        options.addArguments("--headless");
         options.addArguments("--disable-gpu");
 
         System.out.println("init driver");
