@@ -26,10 +26,8 @@ public class TestBase {
         options.addArguments("--window-size=1400,1400");
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
-        options.addArguments("--headless");
+//        options.addArguments("--headless");
         options.addArguments("--disable-gpu");
-        options.addArguments("--dump-dom");
-        options.addArguments("--disable-dev-shm-usage");
 
         System.out.println("init driver");
         driver = new ChromeDriver(options);
