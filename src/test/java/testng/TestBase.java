@@ -22,6 +22,7 @@ public class TestBase {
         baseUrl = PropertyLoader.loadProperty("site.url");
         System.setProperty("webdriver.chrome.driver", "chromedriver_nix");
         DesiredCapabilities capabilities = new DesiredCapabilities();
+
         capabilities.setBrowserName(PropertyLoader.loadProperty("browser.name"));
 //        capabilities.setVersion(PropertyLoader.loadProperty("browser.version"));
         String platform = PropertyLoader.loadProperty("browser.platform");
