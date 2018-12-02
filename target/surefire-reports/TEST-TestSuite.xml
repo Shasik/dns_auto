@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="31.875" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/shasik/IdeaProjects/AT_freecom/target/test-classes:/Users/shasik/IdeaProjects/AT_freecom/target/classes:/Users/shasik/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/Users/shasik/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/shasik/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shasik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shasik/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shasik/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shasik/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shasik/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shasik/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shasik/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shasik/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shasik/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shasik/.m2/repository/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar:/Users/shasik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shasik/.m2/repository/ru/stqa/selenium/webdriver-factory/4.3/webdriver-factory-4.3.jar:/Users/shasik/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/Users/shasik/.m2/repository/org/spockframework/spock-core/1.2-groovy-2.5/spock-core-1.2-groovy-2.5.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy/2.5.2/groovy-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-json/2.5.2/groovy-json-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-nio/2.5.2/groovy-nio-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-macro/2.5.2/groovy-macro-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-templates/2.5.2/groovy-templates-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-test/2.5.2/groovy-test-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-sql/2.5.2/groovy-sql-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.2/groovy-xml-2.5.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/shasik/IdeaProjects/AT_freecom/target/surefire/surefirebooter14163216619675686466.jar /Users/shasik/IdeaProjects/AT_freecom/target/surefire 2018-12-02T13-08-57_602-jvmRun1 surefire5481445334300721558tmp surefire_012752059837634805920tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/shasik/IdeaProjects/AT_freecom/target/test-classes:/Users/shasik/IdeaProjects/AT_freecom/target/classes:/Users/shasik/.m2/repository/org/testng/testng/7.0.0-beta1/testng-7.0.0-beta1.jar:/Users/shasik/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/shasik/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/shasik/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/shasik/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/shasik/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/shasik/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/shasik/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/shasik/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/shasik/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/shasik/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/shasik/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/shasik/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/shasik/.m2/repository/junit/junit/4.13-beta-1/junit-4.13-beta-1.jar:/Users/shasik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/shasik/.m2/repository/ru/stqa/selenium/webdriver-factory/4.3/webdriver-factory-4.3.jar:/Users/shasik/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/Users/shasik/.m2/repository/org/spockframework/spock-core/1.2-groovy-2.5/spock-core-1.2-groovy-2.5.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy/2.5.2/groovy-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-json/2.5.2/groovy-json-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-nio/2.5.2/groovy-nio-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-macro/2.5.2/groovy-macro-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-templates/2.5.2/groovy-templates-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-test/2.5.2/groovy-test-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-sql/2.5.2/groovy-sql-2.5.2.jar:/Users/shasik/.m2/repository/org/codehaus/groovy/groovy-xml/2.5.2/groovy-xml-2.5.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/shasik"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-10-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-11.0.1.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/shasik/IdeaProjects/AT_freecom"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/shasik/IdeaProjects/AT_freecom/target/surefire/surefirebooter14163216619675686466.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.1+13-LTS"/>
+    <property name="user.name" value="shasik"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/shasik/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/c5/kv1mldd90rj24dvczn2byyjm0000gn/T/"/>
+    <property name="java.version" value="11.0.1"/>
+    <property name="user.dir" value="/Users/shasik/IdeaProjects/AT_freecom"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/shasik/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.1+13-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="testH1Existing" classname="testng.HomePageTest" time="20.887"/>
+</testsuite>
