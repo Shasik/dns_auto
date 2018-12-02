@@ -17,7 +17,7 @@ public class TestBase {
     @BeforeClass
     public void init() {
         baseUrl = PropertyLoader.loadProperty("site.url");
-        System.setProperty("webdriver.chrome.driver", "chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver_nix");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("start-maximized");
